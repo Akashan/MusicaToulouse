@@ -1,0 +1,71 @@
+musica_toulouse_website_accueil:
+    path:  /
+    defaults: { _controller: MusicaToulouseWebsiteBundle:Website:index }
+musica_toulouse_website_agenda:
+    path:  /agenda
+    defaults: { _controller: MusicaToulouseWebsiteBundle:Website:agenda }
+musica_toulouse_website_lieux:
+    path:  /lieux
+    defaults: { _controller: MusicaToulouseWebsiteBundle:Website:lieux }
+musica_toulouse_website_artistes:
+    path:  /artistes
+    defaults: { _controller: MusicaToulouseWebsiteBundle:Website:artistes }
+musica_toulouse_website_liens:
+    path:  /liens
+    defaults: { _controller: MusicaToulouseWebsiteBundle:Website:liens }
+musica_toulouse_website_contact:
+    path:  /contact
+    defaults: { _controller: MusicaToulouseWebsiteBundle:Website:contact }
+
+
+
+musica_toulouse_website_adm_messages:
+    path:  /adm_messages
+    defaults: { _controller: MusicaToulouseWebsiteBundle:Website:admMessages }
+musica_toulouse_website_adm_messages_archived:
+    path:  /adm_messages_archived
+    defaults: { _controller: MusicaToulouseWebsiteBundle:Website:admMessagesArchived }
+musica_toulouse_website_adm_messages_garbage:
+    path:  /adm_messages_garbage
+    defaults: { _controller: MusicaToulouseWebsiteBundle:Website:admMessagesGarbage }
+musica_toulouse_website_adm_messages_read:
+    path:  /adm_messages_read/{id}/{return}
+    defaults: { _controller: MusicaToulouseWebsiteBundle:Website:admMessagesRead }
+    
+musica_toulouse_website_adm_messages_archive:
+    path:  /adm_messages_archive/{id}
+    defaults: { _controller: MusicaToulouseWebsiteBundle:Website:admMessagesArchive }
+musica_toulouse_website_adm_messages_delete:
+    path:  /adm_messages_delete/{id}/{return}
+    defaults: { _controller: MusicaToulouseWebsiteBundle:Website:admMessagesDelete }
+musica_toulouse_website_adm_messages_real_delete:
+    path:  /adm_messages_real_delete/{id}
+    defaults: { _controller: MusicaToulouseWebsiteBundle:Website:admMessagesRealDelete }
+
+musica_toulouse_website_adm_liens:
+    path:  /adm_liens
+    defaults: { _controller: MusicaToulouseWebsiteBundle:Website:admLiens }
+
+musica_toulouse_website_adm_categories:
+    path:  /adm_categories
+    defaults: { _controller: MusicaToulouseWebsiteBundle:Website:admCategories }
+
+musica_toulouse_website_adm_lien_ajout:
+    path:  /adm_lien_ajout
+    defaults: { _controller: MusicaToulouseWebsiteBundle:Website:admLienAjout }
+musica_toulouse_website_adm_lien_modifier:
+    path:  /adm_lien_modifier/{id}
+    defaults: { _controller: MusicaToulouseWebsiteBundle:Website:admLienModifier }
+musica_toulouse_website_adm_lien_supprimer:
+    path:  /adm_lien_supprimer/{id}
+    defaults: { _controller: MusicaToulouseWebsiteBundle:Website:admLienSupprimer }
+
+musica_toulouse_website_adm_categorie_ajout:
+    path:  /adm_categorie_ajout
+    defaults: { _controller: MusicaToulouseWebsiteBundle:Website:admCategorieAjout }
+musica_toulouse_website_adm_categorie_modifier:
+    path:  /adm_categorie_modifier/{id}
+    defaults: { _controller: MusicaToulouseWebsiteBundle:Website:admCategorieModifier }
+musica_toulouse_website_adm_categorie_supprimer:
+    path:  /adm_categorie_supprimer/{id}
+    defaults: { _controller: MusicaToulouseWebsiteBundle:Website:admCategorieSupprimer }

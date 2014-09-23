@@ -1,0 +1,17 @@
+musica_toulouse_user:
+    resource: "@MusicaToulouseUserBundle/Resources/config/routing.yml"
+    prefix:   /
+
+musica_toulouse_website:
+    resource: "@MusicaToulouseWebsiteBundle/Resources/config/routing.yml"
+    prefix:   /
+
+login:
+    pattern:   /login
+    defaults:  { _controller: MusicaToulouseUserBundle:Security:login }
+
+login_check:
+    pattern:   /login_check
+
+logout:
+    pattern:   /logout
