@@ -1,0 +1,25 @@
+{% extends "::layout.html.twig" %}
+
+{% block title %}
+    {{ parent() }} - Contact
+{% endblock %}
+
+{% block styles %}
+
+{% endblock %}
+
+{% block musicatoulouse_contenu %}
+    <h2 class="text-center">CONTACTS</h2>
+
+    <p>Vous pouvez nous contacter en remplissant le formulaire ci-dessous</p>
+
+    <form class="form-horizontal well" id="formulaire" method="post" name={{ formName }} {{ form_enctype(form) }}>
+        <fieldset>
+            <legend style="color:#fff;">Votre message</legend>
+            {{ form_widget(form) }}
+            <br />
+            <input type="submit" class="btn btn-primary" />
+            <input name="cancel" class="btn" type="submit" value="Cancel" formnovalidate/>
+        </fieldset>
+    </form>
+{% endblock %}

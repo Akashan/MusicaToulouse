@@ -17,8 +17,6 @@ musica_toulouse_website_contact:
     path:  /contact
     defaults: { _controller: MusicaToulouseWebsiteBundle:Website:contact }
 
-
-
 musica_toulouse_website_adm_messages:
     path:  /adm_messages
     defaults: { _controller: MusicaToulouseWebsiteBundle:Website:admMessages }
